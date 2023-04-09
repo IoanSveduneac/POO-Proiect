@@ -1,0 +1,12 @@
+Specificatii :
+						
+Anul - 2017
+Km 66 000 - km
+Combustibil - Electric
+Putere - 320 CP
+Transmisie - Spate
+Autonomie 400 - km
+Norma de poluare - Euro 6
+Capacitate baterie - 60 kWh
+	
+	
