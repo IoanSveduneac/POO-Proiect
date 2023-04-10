@@ -1,0 +1,27 @@
+    Programul trebuie să fie un sistem de închirieri auto care poate fi accesat după autentificare.
+
+    Programul va cere utilizatorului să introducă numele și prenumele, să aleagă unul din cele trei 
+    modele de mașini disponibile, să introducă numărul de înmatriculare și numărul de zile pentru care dorește să închirieze mașina.
+
+    Programul va calcula prețul de închiriere în funcție de modelul ales și numărul de zile, apoi va afișa informații despre client și preț.
+
+    Programul trebuie să includă o funcție de autentificare cu parolă.
+
+    	Definirea claselor:
+
+    Clasa "client" va include parametrii "numeclient", "model", "numar" și "data".
+
+    Clasa "inchiriere" va fi in relație de moștenire cu clasa "client" și va include parametrii "zile" și "pretinchiriere",
+    precum și metodele "data()", "calculeaza()" și "aratapretul()".
+
+    Clasa "bunvenit" va include metoda "loading()" pentru afișarea unui mesaj de bun venit.
+
+    	Scrierea codului:
+
+    Se va începe prin definirea claselor și a atributelor acestora.
+    Se va scrie metoda "login()" pentru autentificare.
+    În funcția "main()", se va crea un obiect din clasa "bunvenit" și se va apela metoda "loading()".
+    În funcția "main()", se va crea un obiect din clasa "inchiriere" și se va apela metoda "data()" pentru a colecta informațiile necesare.
+    Se va apela metoda "calculeaza()" pentru a calcula prețul închirierii și metoda "aratapretul()" pentru a afișa informațiile despre client și prețul de închiriere.
+    Pentru a face consola să se comporte că o interfață vom folosi funcția "sleep()" și funcția "system("CLS")" pentru a pune anumite pauze în execuția codului și de a 
+    goli consola după fiecare acțiune efectuata.
